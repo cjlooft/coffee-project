@@ -1,5 +1,22 @@
-h1 {
+.header{
     text-align: center;
+    color: #49291e;
+    font-family:Brush Script MT;
+    font-size: 7em;
+}
+ h2.caption {
+    color: #49291e;
+   text-align: right;
+     buffer: 0 5em 0 0;
+
+
+
+}
+
+.sip{
+    background-image: -moz-element();
+    float:right;
+    padding: 0 5em 0 0;
 }
 
 table {

@@ -52,9 +52,10 @@ function searchCoffees() {
 
     tbody.innerHTML = renderCoffees(filteredCoffees);
 
-
+    document.getElementById("search").addEventListener('keyup', searchCoffees);
 
 }
+
 
 
 
