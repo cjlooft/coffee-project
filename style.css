@@ -1,22 +1,43 @@
-.header{
+body {
+    background-color: bisque;
+}
+
+.sip {
+    position: relative;
+    margin-left: 63em;
+    margin-top: -11em;
+    border: .5em solid #56e9ff;
+
+}
+
+.header {
     text-align: center;
     color: #49291e;
-    font-family:Brush Script MT;
-    font-size: 7em;
+    font-family: Brush Script MT;
+    font-size: 5em;
+    background-color: #d2aa6b
+
 }
- h2.caption {
+
+h2.caption {
+    text-position: relative;
     color: #49291e;
-   text-align: right;
-     buffer: 0 5em 0 0;
-
-
+    text-align: right;
+    margin-right: 12em;
+    background-color: antiquewhite;
+    border: 2em solid antiquewhite;
+    margin-top: -3em;
 
 }
 
-.sip{
-    background-image: -moz-element();
-    float:right;
-    padding: 0 5em 0 0;
+#submit {
+    background-color: #56e9ff;
+    border-color: #49291e;
+}
+
+#submit2 {
+    background-color: #56e9ff;
+    border-color: #49291e;
 }
 
 table {
@@ -30,9 +51,10 @@ td, th {
 
 }
 
-.col2  {
+.col2 {
 
-
- padding: 0em 3em;
+    padding: 0em 3em;
 
 }
+
+
